@@ -68,7 +68,7 @@ describe "Game" do
       pending
     end
 
-    it "returns the player object as the winner if the player has blackjack"
+    it "returns the player object as the winner if the player has blackjack" do
       pending
     end
 
