@@ -1,6 +1,7 @@
 # encoding: utf-8
 class Deck < Array
     attr_accessor :cards
+
     SUITS = [:clubs, :diamonds, :hearts, :spades]
     
     def initialize
@@ -22,6 +23,7 @@ class Deck < Array
 
       self
     end
+
 
     class Card < Hash
       SYMBOLS = {
@@ -49,3 +51,4 @@ class Deck < Array
       end
     end
 end
+

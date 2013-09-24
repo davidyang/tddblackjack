@@ -28,7 +28,7 @@ GAME_COUNT.times do
   loser = nil
   if (winner.nil?) 
     push_count += 1
-    puts "Push!" unless game.silent?
+    puts "Push!" 
     next
   elsif (winner.kind_of? Player)
     win_count += 1
@@ -36,7 +36,7 @@ GAME_COUNT.times do
   else
     loser = game.player
   end
-  puts "#{winner.name} Wins #{winner.total} to #{loser.total}" unless game.silent?
+  puts "#{winner.name} Wins #{winner.total} to #{loser.total}" 
 end
 
 puts "====== Done! ======"

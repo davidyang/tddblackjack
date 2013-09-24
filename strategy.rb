@@ -1,7 +1,7 @@
 #this is a naive strategy that should not be used in a casino
 class Strategy
     def initialize(game)
-        @player = game.player
+        @game = game
     end
 
     def action
